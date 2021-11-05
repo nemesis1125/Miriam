@@ -28,7 +28,7 @@ video{
  height: 100%;
  object-fit: cover;
  z-index: -1;
-animation: defer-vid 8s 1;
+animation: defer-vid 10s 1;
 animation-fill-mode: forwards;
 
 }
@@ -256,7 +256,7 @@ display: none;
 }
 
 main{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(./Imagini/nailspic.jpeg) center/cover no-repeat fixed;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(./Imagini/nailspic.jpeg) center/cover no-repeat;
 }
 .main-title{
 color:blanchedalmond;
