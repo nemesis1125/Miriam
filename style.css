@@ -280,6 +280,11 @@ text-align: center;
 a{
   padding: 0 1rem;
 }
+}
 
-
+@media  screen and (max-height:450px) {
+  .sp{
+    min-height: 750vh ;
+  }
+  
 }
