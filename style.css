@@ -28,7 +28,21 @@ video{
  height: 100%;
  object-fit: cover;
  z-index: -1;
+animation: defer-vid 8s 1;
+animation-fill-mode: forwards;
+
 }
+
+@keyframes defer-vid {
+  0%{
+    opacity: 0;
+  }
+  100%{
+   opacity: 1;
+  }
+  }
+  
+
 
 .main-title{
  color: #0A1931;
@@ -222,10 +236,12 @@ footer p{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+ul li{
+  list-style-type: none;
+}
 a{
   font-size: 1.3rem;
-padding: 0 1rem;
+padding: 0 3rem;
   color:yellow;
   display: inline-block;
 }
@@ -234,11 +250,9 @@ padding: 0 1rem;
   transform: scale(1.2);
 }
 
- @media screen and (max-width: 400px){
+ @media screen and (max-width: 450px){
   video{
-width:0;
-height:0;
-z-index:-3;
+display: none;
 }
 
 main{
@@ -257,6 +271,10 @@ text-align: center;
 }
 .img-cont-3, .img-cont-3::before, .img-cont-3::after{
   transform: translateX(5%);
+}
+
+a{
+  padding: 0 1rem;
 }
 
 
