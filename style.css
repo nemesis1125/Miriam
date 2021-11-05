@@ -52,7 +52,7 @@ animation-fill-mode: forwards;
 }
 
 .sp{
- min-height: 650vh;
+ min-height: 600vh;
  width: 100vw;
  background: #0E0E10;
 }
@@ -282,9 +282,3 @@ a{
 }
 }
 
-@media  screen and (max-height:450px) {
-  .sp{
-    min-height: 750vh ;
-  }
-  
-}
