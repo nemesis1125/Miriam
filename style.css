@@ -28,7 +28,7 @@ video{
  height: 100%;
  object-fit: cover;
  z-index: -1;
-animation: defer-vid 10s 1;
+animation: defer-vid 8s 1;
 animation-fill-mode: forwards;
 
 }
@@ -252,11 +252,14 @@ padding: 0 3rem;
 
  @media screen and (max-width: 450px){
   video{
-display: none;
+width:0;
+height:0;
+z-index:-3;
 }
 
+
 main{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(./Imagini/nailspic.jpeg) center/cover no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(./Imagini/nailspic.jpeg) center/cover no-repeat fixed;
 }
 .main-title{
 color:blanchedalmond;
