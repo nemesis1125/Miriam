@@ -261,6 +261,7 @@ z-index:-3;
 main{
 background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(./Imagini/nailspic.jpeg) center/cover no-repeat fixed;
 }
+
 .main-title{
 color:blanchedalmond;
 max-width: 250px;
