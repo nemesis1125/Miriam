@@ -170,11 +170,11 @@ position: relative;
 margin-top: 6rem;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .img-cont-3 img{
   z-index: 2;
+ 
 }
 
 .img-cont-3::before{
@@ -200,6 +200,7 @@ margin-right: auto;
   background: cyan;
 z-index:1;
 opacity: 0.5;
+
 }
 
 
@@ -282,3 +283,8 @@ a{
 }
 }
 
+@media only screen and (orientation: landscape){
+  .sp{
+    min-height: 670vh;
+  }
+}
